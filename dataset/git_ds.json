@@ -1,0 +1,22 @@
+{
+	"name": "git_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "git_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/Mohammed-Fayaz-Ahamed/Git_ADF/blob/main/Emp-1.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
